@@ -1,3 +1,3 @@
-domain_name = "test123.safa-g.com"
+domain_name = "YOUR-DOMAIN-NAME"
 aws_region = "us-east-1"
-route_zone_id = "Z3JDKR1YW6FM9I"
+route_zone_id = "YOUR-ZONE-ID"
