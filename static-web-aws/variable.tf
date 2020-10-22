@@ -5,3 +5,7 @@ variable "domain_name" {
 variable "aws_region" {
   type = string
 }
+
+variable "route_zone_id" {
+  type = string
+}
