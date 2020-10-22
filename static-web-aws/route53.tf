@@ -1,7 +1,8 @@
-resource "aws_route53_zone" "primary" {
-  name = "safa-g.com"
-  #name = var.domain_name
-}
+# # Only need below if you do not have a route53 zone
+# resource "aws_route53_zone" "primary" {
+#   name = "safa-g.com"
+#   #name = var.domain_name
+# }
 
 resource "aws_route53_record" "www" {
   zone_id = var.route_zone_id
