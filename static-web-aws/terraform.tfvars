@@ -1,2 +1,2 @@
-domain_name = safa-g.com
+domain_name = "safa-g.com"
 aws_region = "us-east-1"
