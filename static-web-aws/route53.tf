@@ -5,7 +5,7 @@
 
 #Below will create you an A record that ties to your bucket that will be created with s3.tf file
 resource "aws_route53_record" "www" {
-  zone_id = var.route_zone_id
+  zone_id = var.route_zone_id  #pulls your route53 zone ID from tfvars file
   name = var.domain_name
   type = "A"
   alias {
