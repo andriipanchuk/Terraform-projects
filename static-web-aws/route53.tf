@@ -1,5 +1,6 @@
 resource "aws_route53_zone" "primary" {
-  name = var.domain_name
+  name = "safa-g.com"
+  #name = var.domain_name
 }
 
 resource "aws_route53_record" "www" {
