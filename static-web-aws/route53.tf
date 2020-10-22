@@ -3,6 +3,7 @@
 #   name = var.domain_name
 # }
 
+#Below will create you an A record that ties to your bucket that will be created with s3.tf file
 resource "aws_route53_record" "www" {
   zone_id = var.route_zone_id
   name = var.domain_name
