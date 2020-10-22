@@ -3,7 +3,7 @@
 ##### * You need terraform version 12
 ##### * If you are running the code in your AWS EC2 make sure it has ADMIN privileges.
 ### Run the following commands:
-##### ##### * Clone the repo
+#####  * Clone the repo
 ```
 git clone https://github.com/safag05/Terraform-projects.git
 ```
