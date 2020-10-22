@@ -1,0 +1,7 @@
+*.tfvars*
+*.state*
+*.tfstate*
+*.terraform*
+common-service-account.json
+*backend.tf*
+*config.json
